@@ -1,18 +1,9 @@
-First compile in the terminal with the command:
+First you make sure that all files are in the same folder including the .ttf file. This will result in you having 19 items in that folder.
 
-javac ChromaticNumber.java 
+Next you compile it by running the command:
+javac *.java 
+This will make sure that it compiles everything correctly
 
-Then run it on a specific file by using this command:
+Then you run the program by using the command:
+java StartWindow
 
-java ChromaticNumber <e>
-With e being the path to your file:
-
-E.G.:
-java ChromaticNumber /Users/dennisbams/project1/graph01_2020.txt
-
-Then it will run the program.
-
-You can also run multiple graph files upon it at ones:
-
-E.G.:
-java ChromaticNumber ~/project1/graph01_2020.txt ~/project1/graph02_2020.txt 
